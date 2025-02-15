@@ -14,3 +14,38 @@ Categorical score:
 1.0: Fully proprietary with DRM  
 
 Should calculate weighted average of feature volume.
+
+
+## Data types  
+
+Early sketch of data types  
+
+ProductType:
+```json
+{
+    "name": "<name>",
+}
+```
+
+Product:
+```json
+{
+    "name": "<name>",
+    "description": "<description>",
+    "company_name": "<company_name>",
+    "OSF-1": 0,
+    "price": 0,
+    "used-price": 0,
+    "links": [
+        "<web-shop-url>",
+        "<manufacturer-url>"
+    ]
+}
+```
+
+Company:
+```json
+{
+    "name": "<name>",
+}
+```
